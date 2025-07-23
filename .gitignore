@@ -1,70 +1,74 @@
-# Arquivos de dados
-*.csv
-*.tsv
-*.xlsx
-*.xls
+# Excluir tudo exceto a pasta code/
+/*
+!/code/
+
+# Dentro da pasta code/, excluir arquivos específicos
+code/*.csv
+code/*.tsv
+code/*.xlsx
+code/*.xls
 
 # Arquivos de configuração sensíveis
-.env
-.env.local
-.env.production
-.env.development
+code/.env
+code/.env.local
+code/.env.production
+code/.env.development
 
 # Arquivos de cache Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
+code/__pycache__/
+code/*.py[cod]
+code/*$py.class
+code/*.so
+code/.Python
+code/build/
+code/develop-eggs/
+code/dist/
+code/downloads/
+code/eggs/
+code/.eggs/
+code/lib/
+code/lib64/
+code/parts/
+code/sdist/
+code/var/
+code/wheels/
+code/*.egg-info/
+code/.installed.cfg
+code/*.egg
 
 # Arquivos de resultados e logs
-*.log
-*.out
-results/
-logs/
+code/*.log
+code/*.out
+code/results/
+code/logs/
 
 # Arquivos temporários
-*.tmp
-*.temp
-.DS_Store
-Thumbs.db
+code/*.tmp
+code/*.temp
+code/.DS_Store
+code/Thumbs.db
 
 # Arquivos de IDE
-.vscode/
-.idea/
-*.swp
-*.swo
+code/.vscode/
+code/.idea/
+code/*.swp
+code/*.swo
 
 # Arquivos de backup
-*.bak
-*.backup
+code/*.bak
+code/*.backup
 
 # Arquivos de modelo treinado (muito grandes)
-*.pkl
-*.pickle
-*.h5
-*.hdf5
-*.joblib
-*.sav
+code/*.pkl
+code/*.pickle
+code/*.h5
+code/*.hdf5
+code/*.joblib
+code/*.sav
 
 # Arquivos de imagem gerados
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.pdf 
+code/*.png
+code/*.jpg
+code/*.jpeg
+code/*.gif
+code/*.pdf 
