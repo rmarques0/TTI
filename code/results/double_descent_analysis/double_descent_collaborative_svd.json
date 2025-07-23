@@ -1,0 +1,76 @@
+{
+  "collaborative_svd": [
+    {
+      "complexity_param": "n_components",
+      "complexity_value": 5,
+      "precision_at_k": 0.10127800829875519,
+      "recall_at_k": 0.08423053446738087,
+      "ndcg_at_k": 0.5422928421345121,
+      "rmse": null
+    },
+    {
+      "complexity_param": "n_components",
+      "complexity_value": 10,
+      "precision_at_k": 0.10594190871369294,
+      "recall_at_k": 0.09264638826843888,
+      "ndcg_at_k": 0.5367827808930108,
+      "rmse": null
+    },
+    {
+      "complexity_param": "n_components",
+      "complexity_value": 20,
+      "precision_at_k": 0.09648132780082987,
+      "recall_at_k": 0.09412528895027306,
+      "ndcg_at_k": 0.4927684862889398,
+      "rmse": null
+    },
+    {
+      "complexity_param": "n_components",
+      "complexity_value": 50,
+      "precision_at_k": 0.03991701244813278,
+      "recall_at_k": 0.052672196506178555,
+      "ndcg_at_k": 0.3793634299012609,
+      "rmse": null
+    },
+    {
+      "complexity_param": "n_components",
+      "complexity_value": 100,
+      "precision_at_k": 0.011468879668049792,
+      "recall_at_k": 0.02168260061816592,
+      "ndcg_at_k": 0.34415139576455506,
+      "rmse": null
+    },
+    {
+      "complexity_param": "n_components",
+      "complexity_value": 150,
+      "precision_at_k": 0.0049792531120331955,
+      "recall_at_k": 0.011987955060280348,
+      "ndcg_at_k": 0.3341947327484279,
+      "rmse": null
+    },
+    {
+      "complexity_param": "n_components",
+      "complexity_value": 200,
+      "precision_at_k": 0.0025892116182572615,
+      "recall_at_k": 0.006917134220730348,
+      "ndcg_at_k": 0.33085832033190066,
+      "rmse": null
+    },
+    {
+      "complexity_param": "n_components",
+      "complexity_value": 250,
+      "precision_at_k": 0.0016597510373443983,
+      "recall_at_k": 0.004671738128169663,
+      "ndcg_at_k": 0.32527463080502766,
+      "rmse": null
+    },
+    {
+      "complexity_param": "n_components",
+      "complexity_value": 300,
+      "precision_at_k": 0.0010124481327800831,
+      "recall_at_k": 0.003023381413422907,
+      "ndcg_at_k": 0.3289083344775443,
+      "rmse": null
+    }
+  ]
+}

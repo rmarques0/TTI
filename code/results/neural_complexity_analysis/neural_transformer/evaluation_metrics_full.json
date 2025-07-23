@@ -1,0 +1,90 @@
+{
+  "model_name": "neural_transformer",
+  "training_time": 2380.241259098053,
+  "user_group_results": {
+    "moderate_users": {
+      "precision_at_k": 0.0002,
+      "recall_at_k": 0.0001,
+      "ndcg_at_k": 0.3154648767857289,
+      "coverage": 1.5335868187579214,
+      "num_users_evaluated": 500,
+      "model_name": "neural_transformer",
+      "complexity_level": "high",
+      "approach_type": "neural",
+      "feature_importance": {},
+      "model_info": {
+        "name": "neural_transformer",
+        "complexity_level": "high",
+        "approach_type": "neural",
+        "is_fitted": true,
+        "feature_count": 0,
+        "feature_names": []
+      },
+      "evaluation_time": 43.58670115470886,
+      "test_users_count": 3636
+    },
+    "active_users": {
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "ndcg_at_k": 0,
+      "coverage": 1.4914877868245744,
+      "num_users_evaluated": 500,
+      "model_name": "neural_transformer",
+      "complexity_level": "high",
+      "approach_type": "neural",
+      "feature_importance": {},
+      "model_info": {
+        "name": "neural_transformer",
+        "complexity_level": "high",
+        "approach_type": "neural",
+        "is_fitted": true,
+        "feature_count": 0,
+        "feature_names": []
+      },
+      "evaluation_time": 51.292160987854004,
+      "test_users_count": 1726
+    },
+    "power_users": {
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "ndcg_at_k": 0,
+      "coverage": 1.4958734525447042,
+      "num_users_evaluated": 500,
+      "model_name": "neural_transformer",
+      "complexity_level": "high",
+      "approach_type": "neural",
+      "feature_importance": {},
+      "model_info": {
+        "name": "neural_transformer",
+        "complexity_level": "high",
+        "approach_type": "neural",
+        "is_fitted": true,
+        "feature_count": 0,
+        "feature_names": []
+      },
+      "evaluation_time": 61.450175046920776,
+      "test_users_count": 678
+    },
+    "full": {
+      "precision_at_k": 0.0002,
+      "recall_at_k": 0.0001,
+      "ndcg_at_k": 0.28906482631788766,
+      "coverage": 1.2279040404040404,
+      "num_users_evaluated": 500,
+      "model_name": "neural_transformer",
+      "complexity_level": "high",
+      "approach_type": "neural",
+      "feature_importance": {},
+      "model_info": {
+        "name": "neural_transformer",
+        "complexity_level": "high",
+        "approach_type": "neural",
+        "is_fitted": true,
+        "feature_count": 0,
+        "feature_names": []
+      },
+      "evaluation_time": 83.4327781200409,
+      "test_users_count": 6040
+    }
+  }
+}

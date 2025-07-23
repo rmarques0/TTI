@@ -1,0 +1,146 @@
+{
+  "model_name": "content_knn",
+  "training_time": 18077.418573141098,
+  "user_group_results": {
+    "moderate_users": {
+      "precision_at_k": 0.6964907089596403,
+      "recall_at_k": 0.8538088067876961,
+      "ndcg_at_k": 0.9149447974243611,
+      "coverage": 1.0198563582594,
+      "num_users_evaluated": 3636,
+      "model_name": "content_knn",
+      "complexity_level": "low",
+      "approach_type": "content",
+      "feature_importance": {
+        "genre_action": 0.008054718261735351,
+        "genre_adventure": 0.008054718261735344
+      },
+      "model_info": {
+        "name": "content_knn",
+        "complexity_level": "low",
+        "approach_type": "content",
+        "is_fitted": true,
+        "feature_count": 45,
+        "feature_names": [
+          "genre_action",
+          "genre_adventure",
+          "genre_animation",
+          "genre_children's",
+          "genre_comedy",
+          "genre_crime",
+          "genre_documentary",
+          "genre_drama",
+          "genre_fantasy",
+          "genre_film-noir"
+        ]
+      },
+      "evaluation_time": 22.707721948623657,
+      "test_users_count": 3636
+    },
+    "active_users": {
+      "precision_at_k": 0.7983777520278099,
+      "recall_at_k": 0.3356056154993462,
+      "ndcg_at_k": 0.9347086239849784,
+      "coverage": 0.41302738712065135,
+      "num_users_evaluated": 1726,
+      "model_name": "content_knn",
+      "complexity_level": "low",
+      "approach_type": "content",
+      "feature_importance": {
+        "genre_action": 0.008054718261735351,
+        "genre_adventure": 0.008054718261735344
+      },
+      "model_info": {
+        "name": "content_knn",
+        "complexity_level": "low",
+        "approach_type": "content",
+        "is_fitted": true,
+        "feature_count": 45,
+        "feature_names": [
+          "genre_action",
+          "genre_adventure",
+          "genre_animation",
+          "genre_children's",
+          "genre_comedy",
+          "genre_crime",
+          "genre_documentary",
+          "genre_drama",
+          "genre_fantasy",
+          "genre_film-noir"
+        ]
+      },
+      "evaluation_time": 34.34755992889404,
+      "test_users_count": 1726
+    },
+    "power_users": {
+      "precision_at_k": 0.8140117994100297,
+      "recall_at_k": 0.1545396561652651,
+      "ndcg_at_k": 0.9362004292842676,
+      "coverage": 0.18947730398899587,
+      "num_users_evaluated": 678,
+      "model_name": "content_knn",
+      "complexity_level": "low",
+      "approach_type": "content",
+      "feature_importance": {
+        "genre_action": 0.008054718261735351,
+        "genre_adventure": 0.008054718261735344
+      },
+      "model_info": {
+        "name": "content_knn",
+        "complexity_level": "low",
+        "approach_type": "content",
+        "is_fitted": true,
+        "feature_count": 45,
+        "feature_names": [
+          "genre_action",
+          "genre_adventure",
+          "genre_animation",
+          "genre_children's",
+          "genre_comedy",
+          "genre_crime",
+          "genre_documentary",
+          "genre_drama",
+          "genre_fantasy",
+          "genre_film-noir"
+        ]
+      },
+      "evaluation_time": 35.475398778915405,
+      "test_users_count": 678
+    },
+    "full": {
+      "precision_at_k": 0.7389033787788974,
+      "recall_at_k": 0.6266680279850901,
+      "ndcg_at_k": 0.9229953608072449,
+      "coverage": 0.7777777777777778,
+      "num_users_evaluated": 6040,
+      "model_name": "content_knn",
+      "complexity_level": "low",
+      "approach_type": "content",
+      "feature_importance": {
+        "genre_action": 0.008054718261735351,
+        "genre_adventure": 0.008054718261735344
+      },
+      "model_info": {
+        "name": "content_knn",
+        "complexity_level": "low",
+        "approach_type": "content",
+        "is_fitted": true,
+        "feature_count": 45,
+        "feature_names": [
+          "genre_action",
+          "genre_adventure",
+          "genre_animation",
+          "genre_children's",
+          "genre_comedy",
+          "genre_crime",
+          "genre_documentary",
+          "genre_drama",
+          "genre_fantasy",
+          "genre_film-noir"
+        ]
+      },
+      "evaluation_time": 93.73264193534851,
+      "test_users_count": 6040
+    }
+  }
+}

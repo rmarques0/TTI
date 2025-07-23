@@ -1,0 +1,98 @@
+{
+  "model_name": "collaborative_user_knn",
+  "training_time": 283.4288749694824,
+  "user_group_results": {
+    "moderate_users": {
+      "precision_at_k": 0.17591825462579397,
+      "recall_at_k": 0.24873856151231435,
+      "ndcg_at_k": 0.6660864412369564,
+      "coverage": 0.2792564427545416,
+      "num_users_evaluated": 3636,
+      "model_name": "collaborative_user_knn",
+      "complexity_level": "low",
+      "approach_type": "collaborative",
+      "feature_importance": {
+        "user_similarity": 0.3177244955134506
+      },
+      "model_info": {
+        "name": "collaborative_user_knn",
+        "complexity_level": "low",
+        "approach_type": "collaborative",
+        "is_fitted": true,
+        "feature_count": 0,
+        "feature_names": []
+      },
+      "evaluation_time": 329.058776140213,
+      "test_users_count": 3636
+    },
+    "active_users": {
+      "precision_at_k": 0.3576477404403245,
+      "recall_at_k": 0.14495594101252876,
+      "ndcg_at_k": 0.7491935789957984,
+      "coverage": 0.18800888230940044,
+      "num_users_evaluated": 1726,
+      "model_name": "collaborative_user_knn",
+      "complexity_level": "low",
+      "approach_type": "collaborative",
+      "feature_importance": {
+        "user_similarity": 0.3177244955134506
+      },
+      "model_info": {
+        "name": "collaborative_user_knn",
+        "complexity_level": "low",
+        "approach_type": "collaborative",
+        "is_fitted": true,
+        "feature_count": 0,
+        "feature_names": []
+      },
+      "evaluation_time": 163.66644310951233,
+      "test_users_count": 1726
+    },
+    "power_users": {
+      "precision_at_k": 0.556047197640118,
+      "recall_at_k": 0.10041699608782927,
+      "ndcg_at_k": 0.8400424622987637,
+      "coverage": 0.10797799174690509,
+      "num_users_evaluated": 678,
+      "model_name": "collaborative_user_knn",
+      "complexity_level": "low",
+      "approach_type": "collaborative",
+      "feature_importance": {
+        "user_similarity": 0.3177244955134506
+      },
+      "model_info": {
+        "name": "collaborative_user_knn",
+        "complexity_level": "low",
+        "approach_type": "collaborative",
+        "is_fitted": true,
+        "feature_count": 0,
+        "feature_names": []
+      },
+      "evaluation_time": 60.91457200050354,
+      "test_users_count": 678
+    },
+    "full": {
+      "precision_at_k": 0.2707551867219917,
+      "recall_at_k": 0.20231684792884036,
+      "ndcg_at_k": 0.7146555074027275,
+      "coverage": 0.22411616161616163,
+      "num_users_evaluated": 6040,
+      "model_name": "collaborative_user_knn",
+      "complexity_level": "low",
+      "approach_type": "collaborative",
+      "feature_importance": {
+        "user_similarity": 0.3177244955134506
+      },
+      "model_info": {
+        "name": "collaborative_user_knn",
+        "complexity_level": "low",
+        "approach_type": "collaborative",
+        "is_fitted": true,
+        "feature_count": 0,
+        "feature_names": []
+      },
+      "evaluation_time": 564.559711933136,
+      "test_users_count": 6040
+    }
+  }
+}

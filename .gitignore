@@ -36,10 +36,9 @@ code/*.egg-info/
 code/.installed.cfg
 code/*.egg
 
-# Arquivos de resultados e logs
+# Arquivos de resultados e logs - permitir pasta results mas excluir arquivos específicos
 code/*.log
 code/*.out
-code/results/
 code/logs/
 
 # Arquivos temporários

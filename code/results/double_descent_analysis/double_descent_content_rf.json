@@ -1,0 +1,84 @@
+{
+  "content_rf": [
+    {
+      "complexity_param": "max_depth",
+      "complexity_value": 1,
+      "precision_at_k": 0.7132436277415533,
+      "recall_at_k": 0.614343192535133,
+      "ndcg_at_k": 0.8955266838935559,
+      "rmse": null
+    },
+    {
+      "complexity_param": "max_depth",
+      "complexity_value": 2,
+      "precision_at_k": 0.7301896858328393,
+      "recall_at_k": 0.6218917713638715,
+      "ndcg_at_k": 0.9105698113330841,
+      "rmse": null
+    },
+    {
+      "complexity_param": "max_depth",
+      "complexity_value": 3,
+      "precision_at_k": 0.7321647895672793,
+      "recall_at_k": 0.6233031265068455,
+      "ndcg_at_k": 0.9142592875395761,
+      "rmse": null
+    },
+    {
+      "complexity_param": "max_depth",
+      "complexity_value": 5,
+      "precision_at_k": 0.7384220509780676,
+      "recall_at_k": 0.6268688006165298,
+      "ndcg_at_k": 0.9183160706494302,
+      "rmse": null
+    },
+    {
+      "complexity_param": "max_depth",
+      "complexity_value": 8,
+      "precision_at_k": 0.7434676941315945,
+      "recall_at_k": 0.6295340688155129,
+      "ndcg_at_k": 0.9238735374115433,
+      "rmse": null
+    },
+    {
+      "complexity_param": "max_depth",
+      "complexity_value": 12,
+      "precision_at_k": 0.7461896858328393,
+      "recall_at_k": 0.6301610251202858,
+      "ndcg_at_k": 0.9272221475314203,
+      "rmse": null
+    },
+    {
+      "complexity_param": "max_depth",
+      "complexity_value": 16,
+      "precision_at_k": 0.7459075281564908,
+      "recall_at_k": 0.630023812896291,
+      "ndcg_at_k": 0.9269131877867486,
+      "rmse": null
+    },
+    {
+      "complexity_param": "max_depth",
+      "complexity_value": 20,
+      "precision_at_k": 0.7415091879075281,
+      "recall_at_k": 0.6271048921705195,
+      "ndcg_at_k": 0.9245026471746384,
+      "rmse": null
+    },
+    {
+      "complexity_param": "max_depth",
+      "complexity_value": 25,
+      "precision_at_k": 0.7374593953764078,
+      "recall_at_k": 0.6247968196964666,
+      "ndcg_at_k": 0.9214325113360717,
+      "rmse": null
+    },
+    {
+      "complexity_param": "max_depth",
+      "complexity_value": 30,
+      "precision_at_k": 0.7355838767042087,
+      "recall_at_k": 0.6232381983212645,
+      "ndcg_at_k": 0.9192497159867575,
+      "rmse": null
+    }
+  ]
+}

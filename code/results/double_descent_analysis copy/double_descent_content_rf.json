@@ -1,0 +1,76 @@
+{
+  "content_rf": [
+    {
+      "complexity_param": "n_estimators",
+      "complexity_value": 10,
+      "precision_at_k": 0.7440983995257854,
+      "recall_at_k": 0.6295451401849105,
+      "ndcg_at_k": 0.9250969232426138,
+      "rmse": null
+    },
+    {
+      "complexity_param": "n_estimators",
+      "complexity_value": 20,
+      "precision_at_k": 0.744579727326615,
+      "recall_at_k": 0.629542647419009,
+      "ndcg_at_k": 0.926304707023687,
+      "rmse": null
+    },
+    {
+      "complexity_param": "n_estimators",
+      "complexity_value": 50,
+      "precision_at_k": 0.7450776526378187,
+      "recall_at_k": 0.6299816701124085,
+      "ndcg_at_k": 0.9260022289282008,
+      "rmse": null
+    },
+    {
+      "complexity_param": "n_estimators",
+      "complexity_value": 100,
+      "precision_at_k": 0.7457747480735032,
+      "recall_at_k": 0.6303135252246307,
+      "ndcg_at_k": 0.9264501788535782,
+      "rmse": null
+    },
+    {
+      "complexity_param": "n_estimators",
+      "complexity_value": 150,
+      "precision_at_k": 0.7453266152934204,
+      "recall_at_k": 0.6300299727972336,
+      "ndcg_at_k": 0.9261015252678676,
+      "rmse": null
+    },
+    {
+      "complexity_param": "n_estimators",
+      "complexity_value": 200,
+      "precision_at_k": 0.744944872554831,
+      "recall_at_k": 0.6297033046658533,
+      "ndcg_at_k": 0.9262049472828596,
+      "rmse": null
+    },
+    {
+      "complexity_param": "n_estimators",
+      "complexity_value": 300,
+      "precision_at_k": 0.7449946650859515,
+      "recall_at_k": 0.6296967288626052,
+      "ndcg_at_k": 0.9261989792299876,
+      "rmse": null
+    },
+    {
+      "complexity_param": "n_estimators",
+      "complexity_value": 400,
+      "precision_at_k": 0.7451440426793124,
+      "recall_at_k": 0.629766281112789,
+      "ndcg_at_k": 0.9262721560764791,
+      "rmse": null
+    },
+    {
+      "complexity_param": "n_estimators",
+      "complexity_value": 500,
+      "precision_at_k": 0.7450112625963248,
+      "recall_at_k": 0.6297109758812672,
+      "ndcg_at_k": 0.9263099312682503,
+      "rmse": null
+    }
+  ]
+}

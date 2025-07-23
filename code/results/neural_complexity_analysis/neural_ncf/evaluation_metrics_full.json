@@ -1,0 +1,678 @@
+{
+  "model_name": "neural_ncf",
+  "training_time": 193.2437391281128,
+  "user_group_results": {
+    "moderate_users": {
+      "precision_at_k": 0.6975125261372155,
+      "recall_at_k": 0.8551967841202407,
+      "ndcg_at_k": 0.9166653459992451,
+      "coverage": 1.0038022813688212,
+      "num_users_evaluated": 3636,
+      "model_name": "neural_ncf",
+      "complexity_level": "high",
+      "approach_type": "neural",
+      "feature_importance": {
+        "genre_action": [
+          0.006221909857122228
+        ],
+        "genre_adventure": [
+          0.0022586566003155893
+        ],
+        "genre_animation": [
+          0.0016261404275428504
+        ],
+        "genre_children's": [
+          0.000641752793417254
+        ],
+        "genre_comedy": [
+          0.0014465699485117511
+        ],
+        "genre_crime": [
+          0.0007529773702935927
+        ],
+        "genre_documentary": [
+          0.0005553323159983848
+        ],
+        "genre_drama": [
+          0.002778500000713393
+        ],
+        "genre_fantasy": [
+          0.0009538882178549102
+        ],
+        "genre_film-noir": [
+          0.0005496779252462148
+        ],
+        "genre_horror": [
+          0.0009052500311213408
+        ],
+        "genre_musical": [
+          0.0007102718684791398
+        ],
+        "genre_mystery": [
+          0.0005703033428289927
+        ],
+        "genre_romance": [
+          0.0006737423200911508
+        ],
+        "genre_sci-fi": [
+          0.0011228833171526276
+        ],
+        "genre_thriller": [
+          0.0011861377006789553
+        ],
+        "genre_war": [
+          0.0011202160250559246
+        ],
+        "genre_western": [
+          0.0005744833963854034
+        ],
+        "movie_rating_count": [
+          0.0037203267405857333
+        ],
+        "movie_avg_rating": [
+          0.0652239724935498
+        ],
+        "user_rating_count_x": [
+          0.010503629695313066
+        ],
+        "user_avg_rating_x": [
+          0.055151108830468726
+        ],
+        "genre_Action": [
+          0.0020821414468628063
+        ],
+        "genre_Adventure": [
+          0.0012834006394439256
+        ],
+        "genre_Animation": [
+          0.0008058673048708442
+        ],
+        "genre_Children's": [
+          0.0009023241925024194
+        ],
+        "genre_Comedy": [
+          0.002134607695525119
+        ],
+        "genre_Crime": [
+          0.0009521805105032399
+        ],
+        "genre_Documentary": [
+          0.00014348341152071954
+        ],
+        "genre_Drama": [
+          0.0007738555127070868
+        ],
+        "genre_Fantasy": [
+          0.0009234652897293927
+        ],
+        "genre_Film-Noir": [
+          0.0005513411529727819
+        ],
+        "genre_Horror": [
+          0.0008200257018052071
+        ],
+        "genre_Musical": [
+          0.0014669236338374957
+        ],
+        "genre_Mystery": [
+          0.00032228079740889373
+        ],
+        "genre_Romance": [
+          0.0021975225501228123
+        ],
+        "genre_Sci-Fi": [
+          0.00125307504868033
+        ],
+        "genre_Thriller": [
+          0.0012047265756882552
+        ],
+        "genre_War": [
+          0.0005813642360593718
+        ],
+        "genre_Western": [
+          0.0002519652711237086
+        ],
+        "avg_rating": [
+          0.06496246018679813
+        ],
+        "rating_count": [
+          0.0026044128631201604
+        ],
+        "user_avg_rating_y": [
+          0.05549952943460085
+        ],
+        "user_rating_count_y": [
+          0.010531468779972783
+        ],
+        "age_group_encoded": [
+          0.005447845624839829
+        ]
+      },
+      "model_info": {
+        "name": "neural_ncf",
+        "complexity_level": "high",
+        "approach_type": "neural",
+        "is_fitted": true,
+        "feature_count": 45,
+        "feature_names": [
+          "genre_action",
+          "genre_adventure",
+          "genre_animation",
+          "genre_children's",
+          "genre_comedy",
+          "genre_crime",
+          "genre_documentary",
+          "genre_drama",
+          "genre_fantasy",
+          "genre_film-noir"
+        ]
+      },
+      "evaluation_time": 4.738306045532227,
+      "test_users_count": 3636
+    },
+    "active_users": {
+      "precision_at_k": 0.8100231749710314,
+      "recall_at_k": 0.3403999595497467,
+      "ndcg_at_k": 0.9393351798490583,
+      "coverage": 0.36602516654330125,
+      "num_users_evaluated": 1726,
+      "model_name": "neural_ncf",
+      "complexity_level": "high",
+      "approach_type": "neural",
+      "feature_importance": {
+        "genre_action": [
+          0.006221909857122228
+        ],
+        "genre_adventure": [
+          0.0022586566003155893
+        ],
+        "genre_animation": [
+          0.0016261404275428504
+        ],
+        "genre_children's": [
+          0.000641752793417254
+        ],
+        "genre_comedy": [
+          0.0014465699485117511
+        ],
+        "genre_crime": [
+          0.0007529773702935927
+        ],
+        "genre_documentary": [
+          0.0005553323159983848
+        ],
+        "genre_drama": [
+          0.002778500000713393
+        ],
+        "genre_fantasy": [
+          0.0009538882178549102
+        ],
+        "genre_film-noir": [
+          0.0005496779252462148
+        ],
+        "genre_horror": [
+          0.0009052500311213408
+        ],
+        "genre_musical": [
+          0.0007102718684791398
+        ],
+        "genre_mystery": [
+          0.0005703033428289927
+        ],
+        "genre_romance": [
+          0.0006737423200911508
+        ],
+        "genre_sci-fi": [
+          0.0011228833171526276
+        ],
+        "genre_thriller": [
+          0.0011861377006789553
+        ],
+        "genre_war": [
+          0.0011202160250559246
+        ],
+        "genre_western": [
+          0.0005744833963854034
+        ],
+        "movie_rating_count": [
+          0.0037203267405857333
+        ],
+        "movie_avg_rating": [
+          0.0652239724935498
+        ],
+        "user_rating_count_x": [
+          0.010503629695313066
+        ],
+        "user_avg_rating_x": [
+          0.055151108830468726
+        ],
+        "genre_Action": [
+          0.0020821414468628063
+        ],
+        "genre_Adventure": [
+          0.0012834006394439256
+        ],
+        "genre_Animation": [
+          0.0008058673048708442
+        ],
+        "genre_Children's": [
+          0.0009023241925024194
+        ],
+        "genre_Comedy": [
+          0.002134607695525119
+        ],
+        "genre_Crime": [
+          0.0009521805105032399
+        ],
+        "genre_Documentary": [
+          0.00014348341152071954
+        ],
+        "genre_Drama": [
+          0.0007738555127070868
+        ],
+        "genre_Fantasy": [
+          0.0009234652897293927
+        ],
+        "genre_Film-Noir": [
+          0.0005513411529727819
+        ],
+        "genre_Horror": [
+          0.0008200257018052071
+        ],
+        "genre_Musical": [
+          0.0014669236338374957
+        ],
+        "genre_Mystery": [
+          0.00032228079740889373
+        ],
+        "genre_Romance": [
+          0.0021975225501228123
+        ],
+        "genre_Sci-Fi": [
+          0.00125307504868033
+        ],
+        "genre_Thriller": [
+          0.0012047265756882552
+        ],
+        "genre_War": [
+          0.0005813642360593718
+        ],
+        "genre_Western": [
+          0.0002519652711237086
+        ],
+        "avg_rating": [
+          0.06496246018679813
+        ],
+        "rating_count": [
+          0.0026044128631201604
+        ],
+        "user_avg_rating_y": [
+          0.05549952943460085
+        ],
+        "user_rating_count_y": [
+          0.010531468779972783
+        ],
+        "age_group_encoded": [
+          0.005447845624839829
+        ]
+      },
+      "model_info": {
+        "name": "neural_ncf",
+        "complexity_level": "high",
+        "approach_type": "neural",
+        "is_fitted": true,
+        "feature_count": 45,
+        "feature_names": [
+          "genre_action",
+          "genre_adventure",
+          "genre_animation",
+          "genre_children's",
+          "genre_comedy",
+          "genre_crime",
+          "genre_documentary",
+          "genre_drama",
+          "genre_fantasy",
+          "genre_film-noir"
+        ]
+      },
+      "evaluation_time": 2.803452968597412,
+      "test_users_count": 1726
+    },
+    "power_users": {
+      "precision_at_k": 0.8305309734513273,
+      "recall_at_k": 0.15728746625698906,
+      "ndcg_at_k": 0.9366927951836489,
+      "coverage": 0.13927097661623108,
+      "num_users_evaluated": 678,
+      "model_name": "neural_ncf",
+      "complexity_level": "high",
+      "approach_type": "neural",
+      "feature_importance": {
+        "genre_action": [
+          0.006221909857122228
+        ],
+        "genre_adventure": [
+          0.0022586566003155893
+        ],
+        "genre_animation": [
+          0.0016261404275428504
+        ],
+        "genre_children's": [
+          0.000641752793417254
+        ],
+        "genre_comedy": [
+          0.0014465699485117511
+        ],
+        "genre_crime": [
+          0.0007529773702935927
+        ],
+        "genre_documentary": [
+          0.0005553323159983848
+        ],
+        "genre_drama": [
+          0.002778500000713393
+        ],
+        "genre_fantasy": [
+          0.0009538882178549102
+        ],
+        "genre_film-noir": [
+          0.0005496779252462148
+        ],
+        "genre_horror": [
+          0.0009052500311213408
+        ],
+        "genre_musical": [
+          0.0007102718684791398
+        ],
+        "genre_mystery": [
+          0.0005703033428289927
+        ],
+        "genre_romance": [
+          0.0006737423200911508
+        ],
+        "genre_sci-fi": [
+          0.0011228833171526276
+        ],
+        "genre_thriller": [
+          0.0011861377006789553
+        ],
+        "genre_war": [
+          0.0011202160250559246
+        ],
+        "genre_western": [
+          0.0005744833963854034
+        ],
+        "movie_rating_count": [
+          0.0037203267405857333
+        ],
+        "movie_avg_rating": [
+          0.0652239724935498
+        ],
+        "user_rating_count_x": [
+          0.010503629695313066
+        ],
+        "user_avg_rating_x": [
+          0.055151108830468726
+        ],
+        "genre_Action": [
+          0.0020821414468628063
+        ],
+        "genre_Adventure": [
+          0.0012834006394439256
+        ],
+        "genre_Animation": [
+          0.0008058673048708442
+        ],
+        "genre_Children's": [
+          0.0009023241925024194
+        ],
+        "genre_Comedy": [
+          0.002134607695525119
+        ],
+        "genre_Crime": [
+          0.0009521805105032399
+        ],
+        "genre_Documentary": [
+          0.00014348341152071954
+        ],
+        "genre_Drama": [
+          0.0007738555127070868
+        ],
+        "genre_Fantasy": [
+          0.0009234652897293927
+        ],
+        "genre_Film-Noir": [
+          0.0005513411529727819
+        ],
+        "genre_Horror": [
+          0.0008200257018052071
+        ],
+        "genre_Musical": [
+          0.0014669236338374957
+        ],
+        "genre_Mystery": [
+          0.00032228079740889373
+        ],
+        "genre_Romance": [
+          0.0021975225501228123
+        ],
+        "genre_Sci-Fi": [
+          0.00125307504868033
+        ],
+        "genre_Thriller": [
+          0.0012047265756882552
+        ],
+        "genre_War": [
+          0.0005813642360593718
+        ],
+        "genre_Western": [
+          0.0002519652711237086
+        ],
+        "avg_rating": [
+          0.06496246018679813
+        ],
+        "rating_count": [
+          0.0026044128631201604
+        ],
+        "user_avg_rating_y": [
+          0.05549952943460085
+        ],
+        "user_rating_count_y": [
+          0.010531468779972783
+        ],
+        "age_group_encoded": [
+          0.005447845624839829
+        ]
+      },
+      "model_info": {
+        "name": "neural_ncf",
+        "complexity_level": "high",
+        "approach_type": "neural",
+        "is_fitted": true,
+        "feature_count": 45,
+        "feature_names": [
+          "genre_action",
+          "genre_adventure",
+          "genre_animation",
+          "genre_children's",
+          "genre_comedy",
+          "genre_crime",
+          "genre_documentary",
+          "genre_drama",
+          "genre_fantasy",
+          "genre_film-noir"
+        ]
+      },
+      "evaluation_time": 1.597386121749878,
+      "test_users_count": 678
+    },
+    "full": {
+      "precision_at_k": 0.7447125074096028,
+      "recall_at_k": 0.6291848610131938,
+      "ndcg_at_k": 0.925409321791646,
+      "coverage": 0.7626262626262627,
+      "num_users_evaluated": 6040,
+      "model_name": "neural_ncf",
+      "complexity_level": "high",
+      "approach_type": "neural",
+      "feature_importance": {
+        "genre_action": [
+          0.006221909857122228
+        ],
+        "genre_adventure": [
+          0.0022586566003155893
+        ],
+        "genre_animation": [
+          0.0016261404275428504
+        ],
+        "genre_children's": [
+          0.000641752793417254
+        ],
+        "genre_comedy": [
+          0.0014465699485117511
+        ],
+        "genre_crime": [
+          0.0007529773702935927
+        ],
+        "genre_documentary": [
+          0.0005553323159983848
+        ],
+        "genre_drama": [
+          0.002778500000713393
+        ],
+        "genre_fantasy": [
+          0.0009538882178549102
+        ],
+        "genre_film-noir": [
+          0.0005496779252462148
+        ],
+        "genre_horror": [
+          0.0009052500311213408
+        ],
+        "genre_musical": [
+          0.0007102718684791398
+        ],
+        "genre_mystery": [
+          0.0005703033428289927
+        ],
+        "genre_romance": [
+          0.0006737423200911508
+        ],
+        "genre_sci-fi": [
+          0.0011228833171526276
+        ],
+        "genre_thriller": [
+          0.0011861377006789553
+        ],
+        "genre_war": [
+          0.0011202160250559246
+        ],
+        "genre_western": [
+          0.0005744833963854034
+        ],
+        "movie_rating_count": [
+          0.0037203267405857333
+        ],
+        "movie_avg_rating": [
+          0.0652239724935498
+        ],
+        "user_rating_count_x": [
+          0.010503629695313066
+        ],
+        "user_avg_rating_x": [
+          0.055151108830468726
+        ],
+        "genre_Action": [
+          0.0020821414468628063
+        ],
+        "genre_Adventure": [
+          0.0012834006394439256
+        ],
+        "genre_Animation": [
+          0.0008058673048708442
+        ],
+        "genre_Children's": [
+          0.0009023241925024194
+        ],
+        "genre_Comedy": [
+          0.002134607695525119
+        ],
+        "genre_Crime": [
+          0.0009521805105032399
+        ],
+        "genre_Documentary": [
+          0.00014348341152071954
+        ],
+        "genre_Drama": [
+          0.0007738555127070868
+        ],
+        "genre_Fantasy": [
+          0.0009234652897293927
+        ],
+        "genre_Film-Noir": [
+          0.0005513411529727819
+        ],
+        "genre_Horror": [
+          0.0008200257018052071
+        ],
+        "genre_Musical": [
+          0.0014669236338374957
+        ],
+        "genre_Mystery": [
+          0.00032228079740889373
+        ],
+        "genre_Romance": [
+          0.0021975225501228123
+        ],
+        "genre_Sci-Fi": [
+          0.00125307504868033
+        ],
+        "genre_Thriller": [
+          0.0012047265756882552
+        ],
+        "genre_War": [
+          0.0005813642360593718
+        ],
+        "genre_Western": [
+          0.0002519652711237086
+        ],
+        "avg_rating": [
+          0.06496246018679813
+        ],
+        "rating_count": [
+          0.0026044128631201604
+        ],
+        "user_avg_rating_y": [
+          0.05549952943460085
+        ],
+        "user_rating_count_y": [
+          0.010531468779972783
+        ],
+        "age_group_encoded": [
+          0.005447845624839829
+        ]
+      },
+      "model_info": {
+        "name": "neural_ncf",
+        "complexity_level": "high",
+        "approach_type": "neural",
+        "is_fitted": true,
+        "feature_count": 45,
+        "feature_names": [
+          "genre_action",
+          "genre_adventure",
+          "genre_animation",
+          "genre_children's",
+          "genre_comedy",
+          "genre_crime",
+          "genre_documentary",
+          "genre_drama",
+          "genre_fantasy",
+          "genre_film-noir"
+        ]
+      },
+      "evaluation_time": 10.083992958068848,
+      "test_users_count": 6040
+    }
+  }
+}

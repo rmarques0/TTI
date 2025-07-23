@@ -1,0 +1,76 @@
+{
+  "neural_ncf": [
+    {
+      "complexity_param": "embedding_dim",
+      "complexity_value": 4,
+      "precision_at_k": 0.7446959098992294,
+      "recall_at_k": 0.6292586369631543,
+      "ndcg_at_k": 0.9247001744269637,
+      "rmse": null
+    },
+    {
+      "complexity_param": "embedding_dim",
+      "complexity_value": 8,
+      "precision_at_k": 0.7445299347954949,
+      "recall_at_k": 0.6293206465776209,
+      "ndcg_at_k": 0.9255220795862225,
+      "rmse": null
+    },
+    {
+      "complexity_param": "embedding_dim",
+      "complexity_value": 16,
+      "precision_at_k": 0.7448950800237107,
+      "recall_at_k": 0.6293862095736085,
+      "ndcg_at_k": 0.9248501097787287,
+      "rmse": null
+    },
+    {
+      "complexity_param": "embedding_dim",
+      "complexity_value": 32,
+      "precision_at_k": 0.7449614700652044,
+      "recall_at_k": 0.6292776355579225,
+      "ndcg_at_k": 0.9244036490998052,
+      "rmse": null
+    },
+    {
+      "complexity_param": "embedding_dim",
+      "complexity_value": 64,
+      "precision_at_k": 0.7449946650859515,
+      "recall_at_k": 0.6293740934022369,
+      "ndcg_at_k": 0.9254332307119633,
+      "rmse": null
+    },
+    {
+      "complexity_param": "embedding_dim",
+      "complexity_value": 96,
+      "precision_at_k": 0.7448950800237107,
+      "recall_at_k": 0.6294917306413229,
+      "ndcg_at_k": 0.9250399350805297,
+      "rmse": null
+    },
+    {
+      "complexity_param": "embedding_dim",
+      "complexity_value": 128,
+      "precision_at_k": 0.7453100177830468,
+      "recall_at_k": 0.629703712946159,
+      "ndcg_at_k": 0.9262206527022994,
+      "rmse": null
+    },
+    {
+      "complexity_param": "embedding_dim",
+      "complexity_value": 192,
+      "precision_at_k": 0.7452934202726733,
+      "recall_at_k": 0.6295295372333357,
+      "ndcg_at_k": 0.9250092250116992,
+      "rmse": null
+    },
+    {
+      "complexity_param": "embedding_dim",
+      "complexity_value": 256,
+      "precision_at_k": 0.7449614700652046,
+      "recall_at_k": 0.6295925031019588,
+      "ndcg_at_k": 0.9248906276135872,
+      "rmse": null
+    }
+  ]
+}
