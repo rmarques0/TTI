@@ -1,0 +1,70 @@
+# Arquivos de dados
+*.csv
+*.tsv
+*.xlsx
+*.xls
+
+# Arquivos de configuração sensíveis
+.env
+.env.local
+.env.production
+.env.development
+
+# Arquivos de cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Arquivos de resultados e logs
+*.log
+*.out
+results/
+logs/
+
+# Arquivos temporários
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos de backup
+*.bak
+*.backup
+
+# Arquivos de modelo treinado (muito grandes)
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.joblib
+*.sav
+
+# Arquivos de imagem gerados
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf 

@@ -1,0 +1,168 @@
+{
+  "created_at": "2025-07-19T17:20:46.503452",
+  "config": {
+    "SAMPLE_SIZE": null,
+    "POSITIVE_RATING_THRESHOLD": 3.5,
+    "TEST_SIZE": 0.2,
+    "RANDOM_STATE": 42,
+    "USER_GROUP_THRESHOLDS": {
+      "moderate_users": 100,
+      "active_users": 300,
+      "power_users": Infinity
+    },
+    "DATA_PATH": "/Users/rmarques/UBA/TTI/code/datasets",
+    "content_logistic": {
+      "class_path": "approaches.content_based.ContentBasedLogistic",
+      "complexity": "low",
+      "approach": "content",
+      "params": {}
+    },
+    "content_knn": {
+      "class_path": "approaches.content_based.ContentBasedKNN",
+      "complexity": "low",
+      "approach": "content",
+      "params": {
+        "n_neighbors": 50
+      }
+    },
+    "content_similarity": {
+      "class_path": "approaches.content_based.ContentBasedSimilarity",
+      "complexity": "low",
+      "approach": "content",
+      "params": {}
+    },
+    "content_rf": {
+      "class_path": "approaches.content_based.ContentBasedRandomForest",
+      "complexity": "medium",
+      "approach": "content",
+      "params": {
+        "n_estimators": 100
+      }
+    },
+    "content_gb": {
+      "class_path": "approaches.content_based.ContentBasedGradientBoosting",
+      "complexity": "medium",
+      "approach": "content",
+      "params": {
+        "n_estimators": 100
+      }
+    },
+    "collaborative_svd": {
+      "class_path": "approaches.collaborative_filtering.CollaborativeSVD",
+      "complexity": "low",
+      "approach": "collaborative",
+      "params": {
+        "n_components": 50
+      }
+    },
+    "collaborative_user_knn": {
+      "class_path": "approaches.collaborative_filtering.CollaborativeUserBased",
+      "complexity": "low",
+      "approach": "collaborative",
+      "params": {
+        "n_neighbors": 50
+      }
+    },
+    "collaborative_nmf": {
+      "class_path": "approaches.collaborative_filtering.CollaborativeNMF",
+      "complexity": "medium",
+      "approach": "collaborative",
+      "params": {
+        "n_components": 100,
+        "max_iter": 200
+      }
+    },
+    "neural_ncf": {
+      "class_path": "approaches.neural.NeuralCollaborativeFiltering",
+      "complexity": "high",
+      "approach": "neural",
+      "params": {
+        "embedding_dim": 64,
+        "hidden_dims": [
+          256,
+          128,
+          64
+        ],
+        "dropout": 0.2,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      }
+    },
+    "neural_autoencoder": {
+      "class_path": "approaches.neural.AutoencoderModel",
+      "complexity": "high",
+      "approach": "neural",
+      "params": {
+        "encoder_dims": [
+          512,
+          256,
+          128
+        ],
+        "decoder_dims": [
+          128,
+          256,
+          512
+        ],
+        "dropout": 0.3,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      }
+    },
+    "neural_transformer": {
+      "class_path": "approaches.neural.TransformerModel",
+      "complexity": "high",
+      "approach": "neural",
+      "params": {
+        "attention_heads": 8,
+        "transformer_layers": 4,
+        "hidden_dim": 512,
+        "dropout": 0.1,
+        "epochs": 100,
+        "learning_rate": 0.0001,
+        "weight_decay": 0.0001
+      }
+    },
+    "hybrid_weighted": {
+      "class_path": "approaches.hybrid.HybridWeighted",
+      "complexity": "medium",
+      "approach": "hybrid",
+      "params": {
+        "content_weight": 0.5,
+        "collaborative_weight": 0.5
+      }
+    },
+    "hybrid_stacking": {
+      "class_path": "approaches.hybrid.HybridStacking",
+      "complexity": "high",
+      "approach": "hybrid",
+      "params": {
+        "meta_learner": "logistic"
+      }
+    }
+  },
+  "signature": "0d41995bb777",
+  "train_size": 797758,
+  "test_size": 202451,
+  "total_users": 6040,
+  "total_movies": 3706,
+  "user_groups": {
+    "moderate_users": {
+      "count": 3636,
+      "description": "Moderately active users with \u2264100 training ratings"
+    },
+    "active_users": {
+      "count": 1726,
+      "description": "Active users with 101-300 training ratings"
+    },
+    "power_users": {
+      "count": 678,
+      "description": "Power users with >300 training ratings"
+    },
+    "full": {
+      "count": 6040,
+      "description": "All users"
+    }
+  }
+}
